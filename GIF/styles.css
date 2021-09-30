@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/05/07/54/bleed-4179919_960_720.jpg");
+  }
+  
+  .page-header {
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-style: inherit;
+  }
+  
+  .gif-space {
+    padding: 20px;
+  }
+  .gif-item {
+  /*   why isn't this working? Trying to change div heigh to always be visible  */
+    margin: 0 auto;
+    padding: 4em;
+  /*   position: fixed;
+    top: 50%;
+    left: 50%; */
+  }
+  
+  iframe {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1px;
+  }
+  
+  
+  /* ---start stlying for smaller screens--- */
+  @media (max-width: 767px) {
+    .page-header h1 {
+      font-size: 2.5em;
+    }
+  
+  } 
+  /* end @media */
